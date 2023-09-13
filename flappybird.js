@@ -142,7 +142,7 @@ function placePipes() {
 }
 
 function moveDog(e) {
-    if (e.code == 'Space' || e.code == 'ArrowUp') {
+    if (e.code == 'Space' || e.code == 'ArrowUp' || e.code == 'ontouchstart') {
         // jump
         velocityY = -6;
 
