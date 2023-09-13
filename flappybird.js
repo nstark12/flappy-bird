@@ -59,6 +59,8 @@ window.onload = function() {
     requestAnimationFrame(update);
     setInterval(placePipes, 1500); // places pipes every 1500 ms or 1.5 seconds
     document.addEventListener('keydown', moveDog);
+    document.addEventListener('touchstart', moveDog);
+    document.addEventListener('ontouchstart', moveDog);
     
 }
 
